@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roadmap & Progress</title>
+    <link rel="icon" type="png" href="uni-vote[1].png" />
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #eaeaea;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      background: linear-gradient(to right, #3a6cf4, #2c3e9f);
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 35px;
+      margin-bottom: 10px;
+      color: #ffcc70;
+    }
+
+    p {
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .phase {
+      border-left: 4px solid #3a6cf4;
+      padding-left: 15px;
+      margin-top: 25px;
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    }
+
+    .highlight {
+      color: #3a9ff4;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Roadmap & Progress</h1>
+
+    <h2>Our Vision:</h2>
+    <p>To engineer trust in the digital democratic process through a secure, private, and verifiable voting platform.</p>
+
+    <div class="phase">
+      <h2>Phase 1: Foundation & Core Tech <span class="highlight">(Completed: March - June 2025)</span></h2>
+      <p>
+        This phase focused on moving from concept to a functional core. We designed the "Attested Claim-Nonce" ZK model, 
+        selected our tech stack (Base, Circom, React), and built the fundamental components.
+      </p>
+      <p><strong>Key Achievements:</strong></p>
+      <ul>
+        <li>Architected the core privacy and security model.</li>
+        <li>Developed and compiled the final ZK circuits.</li>
+        <li>Performed the trusted setup to generate all necessary ZKP keys.</li>
+        <li>Deployed the initial verifier and voting smart contracts.</li>
+        <li>All foundational artifacts are on GitHub, ready for integration.</li>
+      </ul>
+    </div>
+
+    <div class="phase">
+      <h2>Phase 2: MVP & Public Testnet Launch <span class="highlight">(Upcoming: July - September 2025)</span></h2>
+      <p>
+        Our focus is now on full integration, feature completion, and rigorous testing to launch on the Base Goerli testnet.
+      </p>
+      <p><strong>Primary Goals:</strong></p>
+      <ul>
+        <li><strong>Integration:</strong> Achieve the first successful end-to-end vote, connecting the frontend UI, ZKP logic, backend services, and live smart contracts.</li>
+        <li><strong>Feature Completion:</strong> Implement the full user experience, including the User Profile section, "Track Vote" feature, and the Results Dashboard.</li>
+        <li><strong>Testing & Launch:</strong> Conduct intensive internal security reviews and bug fixing, leading to a public testnet launch to gather community feedback.</li>
+      </ul>
+    </div>
+
+    <div class="phase">
+      <h2>Phase 3: Mainnet & Future Growth <span class="highlight">(Q4 2025 & Beyond)</span></h2>
+      <p>
+        This phase transitions UNI-VOTE from a test product to a live, production-ready platform.
+      </p>
+      <p><strong>Next Steps:</strong></p>
+      <ul>
+        <li><strong>Mainnet Deployment:</strong> After a final security audit and performance review, deploy UNI-VOTE to the Base Mainnet.</li>
+        <li><strong>Growth & Evolution:</strong> Actively gather user feedback to plan V2 features, such as advanced voting mechanisms and deeper integrations, to continue growing the UNI-VOTE ecosystem.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
